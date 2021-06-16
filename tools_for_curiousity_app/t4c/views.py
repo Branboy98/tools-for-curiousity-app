@@ -45,6 +45,12 @@ def designsprint(request):
     pprint(request)
     context = {}
     return render(request, "t4c/designsprint.html", context)
+    
+def designsprint2(request):
+    print("t4c/views.py @ designsprint2()")
+    pprint(request)
+    context = {}
+    return render(request, "t4c/designsprint2.html", context)
 
 def OBSOLETEindex(request):
     return HttpResponse("Hello, world. You're at the t4c index.")
