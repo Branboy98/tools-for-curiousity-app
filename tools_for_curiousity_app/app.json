@@ -1,8 +1,8 @@
 {
   "name": "Start on Heroku: Python",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "description": "A test for the pipeline of a clean A-Frame Project from GitHub to Heroku",
   "image": "heroku/python",
-  "repository": "https://github.com/billtorcaso/python-getting-started.git",
+  "repository": "https://github.com/Branboy98/tools-for-curiousity-app",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ],
   "env": {
